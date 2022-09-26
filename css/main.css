@@ -2,9 +2,10 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
-header, nav, main, footer {
+header, main, footer {
     margin: 1.25rem auto; 
     max-width: 760px;
+    text-align:center;
 }
 
 header, footer {
