@@ -15,9 +15,9 @@ header, footer {
 }
 
 img {
-    size: 126px 153px;
-    float: right;
-    margin: 10px;
-    border: 1px solid black
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
 }
 
