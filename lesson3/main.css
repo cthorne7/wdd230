@@ -1,0 +1,32 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+header, footer {
+    margin: 1.25rem auto; 
+    max-width: 600px;
+    text-align:center;
+}
+main {
+    margin: 1.25rem auto;
+    max-width: 600px;
+}
+header, footer {
+    background-color:darkolivegreen;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    max-width:650px;
+}
+
+h1 img {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+}
+
+img.resize {
+    width:540px;
+    height: auto;
+}
