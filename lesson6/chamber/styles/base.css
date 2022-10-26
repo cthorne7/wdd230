@@ -1,0 +1,136 @@
+
+header {
+    background-color: #005B9A;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    padding: 0px 30px;
+    color: white;
+}
+
+nav {
+    color: white;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav a {
+    color: #EEEEEE;
+    font-size: 1.1em;
+    padding: .5em 1em;
+}
+
+nav a:hover {
+    background-color: #6194BC;
+    color: #EEEEEE;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif; 
+    font-size: 1.1em;
+    padding: .5em 1em;
+    margin-top: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-auto-rows: minmax(200px, auto);
+}
+
+.main {
+    color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin: 15px 20px;
+    background-color: #D0EAFF;
+}
+
+.events {
+    color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin: 15px 20px;
+    background-color: #D0EAFF;
+}
+
+.weather {
+    color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin: 15px 20px;
+    background-color: #D0EAFF;
+    }
+
+.news {
+    color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin: 15px 20px;
+    background-color: #D0EAFF;
+}
+
+.join {
+    color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin: 15px 20px;
+    background-color: #D0EAFF;
+}
+
+.spotlight {
+    color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin: 15px 20px;
+    background-color: #D0EAFF;
+}
+
+.blog {
+    color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 20px;
+    margin: 15px 20px;
+    background-color: #D0EAFF;
+}
+
+footer {
+    background-color: #005B9A;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* Color Theme Swatches in Hex
+Dark blue { color: #005B9A; }
+Lighter dark blue { color: #6194BC; }
+Light blue { color: #D0EAFF; }
+White { color: #FFFFFF; }
+Light gray { color: #EEEEEE; }
+*/
+
+/* Font Family
+font-family: 'Red Hat Display', sans-serif;
+*/
