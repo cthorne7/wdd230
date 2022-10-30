@@ -1,3 +1,25 @@
+<!--display at least five images about the city/town
+each image should have a brief description and should
+take up only one column in larger view
+
+include some demographic data which can include statistical
+information about the city/location
+
+images optimized for the layout
+
+images must not load until the user scrolls - use a lazy loading technique
+
+using local storage display the amount of time in days (rounded to a whole number)
+between user visits to this page by the user's agent (browser). Display this info
+where you deem fit on the page
+
+incorporate the some CSS property effect when a user hovers over the images in the
+gallery. This effect is your choice. Do not apply this effect to the images in the small view.
+
+Maintain a proper page weight as per standards list on performance
+
+create an assignment link from assignment portal home page-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,40 +62,24 @@
 
 </header>
 <main>
-    <section class="events">
-        <h2>What's happening?</h2>
+    <section class="image1">
+        <h2>Image 1</h2>
     </section>
 
-    <section class="main">
-        <h2>Utah Valley Chamber of Commerce</h2>
+    <section class="image2">
+        <h2>Image 2</h2>
     </section>
 
-    <section class="weather">
-        <h2>Today's Weather</h2>
-        <ul> 
-           <li>High: 57&deg;</li>
-           <li>Low: 37&deg;</li>
-           <li>Chance of Precipitation: 45%</li>
-           <li>Wind: 15mph NW</li>
-           <li>Wind Chill: <span id="windChill"></span>&deg;</li>  
-         </ul> 
-        
+    <section class="image3">
+        <h2>Image 3</h2>     
     </section>
 
-    <section class="news">
-        <h2>News Box</h2>
+    <section class="image4">
+        <h2>Image 4</h2>
     </section>
 
-    <section class="join">
-        <h2>Join the UV Chamber of Commerce</h2>
-    </section>
-
-    <section class="spotlight">
-        <h2>Weekly Business Spotlight</h2>
-    </section>
-
-    <section class="blog">
-        <h2>UV Chamber Blogspot</h2>
+    <section class="image5">
+        <h2>Image 5</h2>
     </section>
 
 </main>
@@ -82,7 +88,6 @@
     <div id="lastModified"></div>
 </footer>
 <script src="scripts/date.js"></script>
-<script src="scripts/lastmodified.js"></script>
-<script src="scripts/weather.js"></script>
+<script src="scripts/lastmodified.js"></script
 </body>
 </html>
