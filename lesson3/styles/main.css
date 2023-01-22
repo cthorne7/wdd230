@@ -57,11 +57,11 @@ nav a:hover {
     display: block
 }
 
-main {
+/*main {
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-auto-rows: minmax(200px, auto);
-}
+}*/
 
 .main {
     color: #005B9A;
@@ -124,25 +124,7 @@ img {
     height: auto;
 }
 
-.image1 {
-   
-    
-}
 
-.image2 {
-  
-}
-.image3 {
-   
-}
-
-.image4 {
-  
-}
-
-.image5 {
-   
-}
 
 footer {
     background-color: #005B9A;
